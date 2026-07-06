@@ -67,8 +67,4 @@ KEP/
 └── README.md
 ```
 
-## GitHub Notes
 
-The repository does not include `bin/`, `obj/`, `.vs/`, or `packages/` folders. These are local Visual Studio files, build outputs, or NuGet packages, and they can be regenerated with package restore and build.
-
-The local SQLite database and exported request text files are also ignored through `.gitignore`, so personal or test data is not committed to the repository.
